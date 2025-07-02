@@ -16,7 +16,7 @@
         <field name="name">advanced.sales.forecast.form</field>
         <field name="model">advanced.sales.forecast</field>
         <field name="arch" type="xml">
-            <form>
+            <form string="Sales Forecast">
                 <sheet>
                     <group>
                         <field name="name"/>
@@ -37,7 +37,7 @@
         <field name="name">advanced.sales.forecast.graph</field>
         <field name="model">advanced.sales.forecast</field>
         <field name="arch" type="xml">
-            <graph type="line">
+            <graph type="line" string="Forecast Trends">
                 <field name="start_date" type="row"/>
                 <field name="forecast_value" type="measure"/>
             </graph>
